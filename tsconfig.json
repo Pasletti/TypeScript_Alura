@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true, // Não permite transpilar para js se o arquivo ts tiver errors
+        "noImplicitAny": true // Não permite variavel sem declaração de tipo
+    },
+    "include": [
+        "app/**/*"
+    ]
+}
