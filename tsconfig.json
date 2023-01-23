@@ -3,7 +3,9 @@
         "outDir": "dist/js",
         "target": "ES6",
         "noEmitOnError": true, // Não permite transpilar para js se o arquivo ts tiver errors
-        "noImplicitAny": true // Não permite variavel sem declaração de tipo
+        "noImplicitAny": true, // Não permite variavel sem declaração de tipo
+        "removeComments": true, // Remove os comentários
+        "strictNullChecks": true // Verifica querySelector está retornando null ou inputElement
     },
     "include": [
         "app/**/*"
